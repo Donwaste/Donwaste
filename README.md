@@ -5,13 +5,7 @@ Frontend developer building projects with JavaScript and React.
 ### Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,vite,git" />
-</div>
-
-### Currently learning
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=firebase" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,redux,vite,git,firebase" />
 </div>
 
 ---
@@ -23,9 +17,9 @@ Built a custom data layer with response caching and promise deduplication, categ
 `HTML5` `CSS3` `Vanilla JS (ES Modules)`
 [Demo](https://shop-one-beryl-42.vercel.app)
 
-**[User Manager](https://github.com/Donwaste/User-manager)** — a React SPA for browsing and managing a user directory.
-Built reusable, generic UI primitives (Table, Pagination, GroupList) and a standalone validation engine with zero third-party dependencies, plus profession filtering, multi-column sorting, live search, and bookmarks.
-`React 18` `React Router v6` `Vite` `Bootstrap 5` `Lodash`
+**[User Manager](https://github.com/Donwaste/User-manager)** — a React + TypeScript SPA for browsing and managing a user directory, backed by Firebase.
+Implemented real authentication (Firebase Auth REST API) with single-flight token refresh and declarative route guards; state is managed with Redux Toolkit using a thunk-per-use-case pattern. Built generic, typed UI primitives (Table, Pagination, GroupList), a standalone validation engine with no third-party libraries, and Axios interceptors that normalize Firebase responses — covered by Vitest tests. Features include profession filtering, multi-column sorting, live search, persistent bookmarks, comments, and a profile editor.
+`React 19` `TypeScript` `Redux Toolkit` `React Router v7` `Firebase` `Vite`
 [Demo](https://user-manager-lyart-eta.vercel.app)
 
 ---
